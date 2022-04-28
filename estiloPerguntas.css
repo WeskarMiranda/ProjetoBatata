@@ -56,28 +56,23 @@ a{
 main 
 {
     margin-top: 50px;
-    
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-article
-{
-    width: 40%;
+
+article > div{
+    font-size: 2em;
+    padding: 10px 20px 30px 40px;
+    border-color: blue;
+    border-style: dotted;
+    border-radius: 40px;
+    background-color: rgb(105, 111, 165);
 }
-.container {
-    display: none;
-}
-.container2 {
-    display: none;
-}
-.container3 {
-    display: none;
-}
-.container4 {
-    display: none;
-}
-.container5 {
-    display: none;
+
+div > p{
+    font-size: 1em;
+    font-style: oblique;
+    
 }
